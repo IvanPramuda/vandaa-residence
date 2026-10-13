@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property web</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Animate scroll on css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
+    <!-- Animate scroll on css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <!-- customize bootstrap stylesheet-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> 
+</head>
+
+<body>
+    <!--header-->
+    <header class="header">
+        <!-- Navbar-->
+        <nav class="nav">
+            <div class="logo">  
+                <a href="./index.html" style="text-decoration: none;">
+                    <h2>Vandaa <br> <span id="black-title">Residence</span></h2>
+                </a>
+            </div>
+        
+    
+        <div class="nav_menu" id="nav_menu">
+            <button class="close_btn" id="close_btn">
+            <i class="fa fa-arrow-right"></i>
+            </button>
+
+            <ul class="nav_menu_list">
+            <li class="nav_menu_item">
+                <a href="./index.html" class="nav_menu_link">Beranda</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./Tipe_Rumah.html" class="nav_menu_link">Tipe Rumah</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./Tentang.html" class="nav_menu_link">Tentang Kami</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./Kontak.html" class="nav_menu_link_menu_active">Kontak</a>
+            </li>
+            <li class="nav_menu_item">
+                <a href="./Blog.html" class="nav_menu_link">Blog</a>
+            </li>
+            </ul>
+        </div>  
+
+        <button class="toggle_btn" id="toggle_btn">
+            <i class="fa fa-bars"></i>
+        </button>
+    
+        </nav>  
+    </header>
+     <!--header-->
+
+    <!--setion title-->
+    <section class="wrapper-content tentang" id="home">
+        <div class="container-fluid">
+            <div class="row" id="content-title">
+                <div class="col-md-12 text-center">
+                    <h2>Kontak</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--setion title-->
+
+    <!-- content-->
+   <div class="container kontak">
+    <div class="row justify-content-center">
+        <div class="col-md-12">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-md-3">
+                      <div class="dbox w-100 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-map-marker"></span>
+                        </div>
+                        <div class="text">
+                            <p>
+                                <span>Alamat :</span>Omega Earth, JL Masa Depan Yang Cerah No 1
+                            </p>
+                        </div>
+                      </div>  
+                    </div>
+                    <div class="col-md-3">
+                        <div class="dbox w-100 text-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                              <span class="fa fa-phone"></span>
+                          </div>
+                          <div class="text">
+                              <p>
+                                  <span>Phone :</span> <a href="#">+6288877776666</a>
+                              </p>
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="col-md-3">
+                        <div class="dbox w-100 text-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                              <span class="fa fa-paper-plane"></span>
+                          </div>
+                          <div class="text">
+                              <p>
+                                  <span>Email :</span> <a href="mailto:ivan01iman@gmail.com">Ivan01iman@gmail.com</a>
+                              </p>
+                          </div>
+                        </div>  
+                      </div>
+                      <div class="col-md-3">
+                        <div class="dbox w-100 text-center">
+                          <div class="icon d-flex align-items-center justify-content-center">
+                              <span class="fa fa-instagram"></span>
+                          </div>
+                            <div class="text">
+                              <p>
+                                  <span>Instagram</span> <a href="https://www.instagram.com/ivan_prmda/">Ivan_prmda </a>
+                              </p>
+                            </div>
+                        </div>  
+                      </div>
+                </div>
+                <div class="row no-gutter mb-5 mt-5">
+                    <div class="col-md-7">
+                        <div class="contact-wrapper w-100 p-md-5 p-4">
+                            <h3>Hubungi Kami</h3>
+                            <div class="mb-4"> Silahkan hubungi kami jika anda tertarik dengan hunian Vandaa Residence</div>
+                            <form id="contactForm" name="contactForm" class="contactFrom"
+                            novalidate="novalidate">
+                                <div class="row">
+                                    <div class="col-md-6 mb-2 mt-2">
+                                        <div class="form-group">
+                                            <label class="label" for="name">Name</label>
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Nama">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2 mt-2">
+                                        <div class="form-group">
+                                            <label class="label" for="name">Email</label>
+                                            <input type="email" class="form-control" name="email" id="name" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2 mt-2">
+                                        <div class="form-group">
+                                            <label class="label" for="name">Subject</label>
+                                            <input type="text" class="form-control" name="name" id="name" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2 mt-2">
+                                        <div class="form-group">
+                                            <label class="label" for="name">Pesan</label>
+                                            <textarea name="Message" class="form-control" cols="30"
+                                            rows="4" placeholder="pesan..." spellcheck="false"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-2 mt-2">
+                                        <div class="form-group">
+                                          <button class="btn_home view_more_btn">
+                                            Kirim Pesan <i class="fa fa-envelope"></i>
+                                          </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-5 d-flex align-items-stretch">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7955.043083088084!2d97.95463800430299!3d4.499542480381675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1sid!2sid!4v1791372747168!5m2!1sid!2sid" width="600"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    <!-- content-->
+
+    <!-- Foter-->
+     <br><br><br>
+     <footer class="footer">
+        <div>Copyright &copy; M Ivan Pramuda 2026</div>
+     </footer>
+    <!-- Foter-->
+    <!-- Animate scroll on css-->
+    <script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- Script.JS-->
+     <script src="js/script.js"></script>
+</body>
+</html>
